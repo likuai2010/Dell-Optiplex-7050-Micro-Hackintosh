@@ -160,8 +160,8 @@ Rambling aside, I will be making a tutorial on how to find the variable and turn
 As for the Bi-directional PROCHOT (BDPROCHOT), I've encountered this several times at work with our Dell machines and finally figured out how to stop it or at least suppress it. What happens is either a sensor dies, misinforms the BIOS or just the power supply is crappy and sends signals all over the place which in turn locks your CPU to a low power state.
 
 
-
-dell optiplex 7050 ssf, mac 12.6 的坑
+## dell optiplex 7050 ssf 的注意
+dell optiplex 7050 ssf, mac 12.6 的坑:
 1 可能会卡 no nvram varible
 解决方案, 修改config.plist ReleaseUsbOwnership true
 接下来可能会卡, liu pathcer err2
